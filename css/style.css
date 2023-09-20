@@ -12,12 +12,33 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    padding: 1rem 100px 0px 100px;
+    padding: 1rem 150px 0px 150px;
 }
 
 html{
     scroll-behavior: smooth;
 }
+
 header{
     border-bottom: 1px solid indianred;
+}
+
+.header-title{
+    color: var(--first-color);
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav--link{
+    margin-left: 0.5rem;
+
 }
