@@ -42,3 +42,36 @@ a{
     margin-left: 0.5rem;
 
 }
+
+.brand{
+    display: flex;
+    border: 1px solid blue;
+    /*padding-top: 5px;
+    padding-bottom: 5px;*/
+}
+
+.brand-left{
+    border: 1px solid red;
+    width: 60%;
+}
+
+.brand-right{
+    border: 1px solid green;
+    width: 40%;
+}
+
+.img-container{
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    border: 0.8rem solid var(--first-color);
+}
+
+.img-container img{
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0.8rem solid white;
+}
+
