@@ -95,3 +95,34 @@ a{
 .btn:hover{
     box-shadow: 0rem 0rem var(--first-color), inset 0rem 0rem var(--first-color);
 }
+
+.gifimages{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gifimages img{
+    width: 20%;
+    margin-left: 0.5rem;
+
+}
+
+.skills{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.skills-left{
+    width: 20%4;
+    border: 1px solid red;
+
+}
+
+.skills-right{
+    width: 80%;
+    border: 1px solid red;
+    height: 500px;
+
+}
